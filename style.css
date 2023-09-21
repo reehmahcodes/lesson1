@@ -1,0 +1,74 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+nav {
+    background-color: aqua;
+    display: flex;
+    gap: 10rem;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+
+ul { 
+    display: flex; 
+    justify-content: flex-end;
+    gap: 2rem;
+    align-items: center;
+}
+
+ul li{ 
+    list-style: none;
+}
+
+.get {
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+.downset {
+    height: 70vh;
+    background-color: aliceblue;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.downset .left { 
+    width: 30%;
+}
+p { 
+    margin-bottom: 30px;
+}
+
+.downset .subhead { 
+    color:red;
+}
+
+img { 
+    height: 30rem;
+}
+
+button{ 
+    border: 0;
+    margin-right: 20px ;
+    /* outline: 0; */
+}
+
+#hire {
+    border: 2px solid red;
+    padding: 10px;
+    width: 80px;
+}
+
+
+.downset .head { 
+    font-size: 3rem;
+}
+
+
